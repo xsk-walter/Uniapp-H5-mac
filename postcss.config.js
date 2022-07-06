@@ -17,6 +17,9 @@ module.exports = {
     require('autoprefixer')({
       remove: process.env.UNI_PLATFORM !== 'h5'
     }),
-    require('@dcloudio/vue-cli-plugin-uni/packages/postcss')
+    require('@dcloudio/vue-cli-plugin-uni/packages/postcss'),
+	// require('postcss-px-to-viewport')({
+	// 	viewportWidth: 375
+	// })
   ]
 }
